@@ -15,16 +15,10 @@ import { AppController } from './app.controller';
     ConfigModule.forRoot({ isGlobal: true }),
     TypeOrmModule.forRoot({
       type: 'postgres',
-      host: process.env.DB_HOST,
-      port: Number(process.env.DB_PORT) || 5432,
-      username: process.env.DB_USER,
-      password: process.env.DB_PASSWORD,
-      database: process.env.DB_NAME,
+      url: process.env.DATABASE_URL,
       entities: [Produto, Categoria, Usuario],
       synchronize: true,
-      ssl: {
-        rejectUnauthorized: false,
-      },
+      ssl: process.env.DATABASE_URL ? { rejectUnauthorized: false } : false,
     }),
     ProdutoModule,
     CategoriaModule,
