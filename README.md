@@ -21,6 +21,7 @@ Esta API foi desenvolvida para servir como o núcleo de persistência e lógica 
 * **Documentação de API (Swagger):** [https://vitalis-api-4oco.onrender.com/swagger](https://vitalis-api-4oco.onrender.com/swagger)
 
 * 
+* 
 ## 🛠️ Stack Tecnológica
 * **Framework:** NestJS (Node.js)
 * **Linguagem:** TypeScript
