@@ -16,7 +16,7 @@
 Esta API foi desenvolvida para servir como o núcleo de persistência e lógica de negócio. A arquitetura foi concebida focando em modularidade, escalabilidade e manutenibilidade seguindo as melhores práticas de mercado.
 
 ## 🚀 Status do Sistema
-* **Front-end:** [https://vitalis-front-five.vercel.app/home](https://vitalis-front-five.vercel.app/home)
+* **Front-end:** [https://vitalis-front-five.vercel.app/home](https://vitalis-front-five.vercel.app)
 * **Back-end:** [https://vitalis-api-4oco.onrender.com](https://vitalis-api-4oco.onrender.com)
 * **Documentação de API (Swagger):** [https://vitalis-api-4oco.onrender.com/swagger](https://vitalis-api-4oco.onrender.com/swagger)
 
