@@ -1,11 +1,12 @@
-"compilerOptions": {
+{
+  "compilerOptions": {
     "module": "commonjs",
     "declaration": true,
     "removeComments": true,
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "allowSyntheticDefaultImports": true,
-    "target": "ES2021",
+    "target": "es2021",
     "sourceMap": true,
     "rootDir": "src",
     "outDir": "./dist",
@@ -18,4 +19,6 @@
     "forceConsistentCasingInFileNames": true,
     "noFallthroughCasesInSwitch": false,
     "esModuleInterop": true
-},
+  },
+  "include": ["src/**/*"]
+}
