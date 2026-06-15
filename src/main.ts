@@ -6,7 +6,7 @@ import { DocumentBuilder, SwaggerModule } from '@nestjs/swagger';
 async function bootstrap() {
   const app = await NestFactory.create(AppModule);
   const config = new DocumentBuilder()
-    .setTitle('DelivrAgency')
+    .setTitle('FreshFood')
     .setDescription('Endpoint e documentação das rotas do sistema de Delivery')
     .setContact(
       'Wadssa Wacemberg',
@@ -33,7 +33,7 @@ async function bootstrap() {
   const port = process.env.PORT ?? 4000;
   await app.listen(port);
 
-  console.log(` Engine DelivrAgency rodando na porta: ${port}`);
+  console.log(` Engine FreshFood rodando na porta: ${port}`);
   console.log(
     `📄 Documentação Swagger ativa em: http://localhost:${port}/swagger`,
   );
