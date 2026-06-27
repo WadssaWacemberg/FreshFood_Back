@@ -9,7 +9,7 @@
   <img src="https://img.shields.io/badge/Deployment-Render-purple" alt="Cloud" />
 </p>
 
-# Vitalis API
+# FreshFood API
 
 > **Documentação Técnica: Sistema de Gestão de Conteúdo (Back-End)**
 
